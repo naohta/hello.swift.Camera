@@ -42,6 +42,9 @@
                             <constraint firstItem="iAP-ld-YRg" firstAttribute="top" secondItem="e7q-e0-uAc" secondAttribute="bottom" id="qGy-p4-BgW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Hrg-ql-H13" id="bhK-MM-8Qo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPU-S4-w5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
