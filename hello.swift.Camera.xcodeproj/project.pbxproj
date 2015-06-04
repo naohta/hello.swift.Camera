@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3501C0361B208FF400B691D3 /* README.md */,
-				3501C0111B208E5000B691D3 /* Products */,
-				3501C0281B208E5100B691D3 /* hello.swift.CameraTests */,
 				3501C0121B208E5000B691D3 /* hello.swift.Camera */,
+				3501C0281B208E5100B691D3 /* hello.swift.CameraTests */,
+				3501C0111B208E5000B691D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +77,9 @@
 		3501C0121B208E5000B691D3 /* hello.swift.Camera */ = {
 			isa = PBXGroup;
 			children = (
-				3501C0131B208E5000B691D3 /* Supporting Files */,
 				3501C0151B208E5000B691D3 /* AppDelegate.swift */,
 				3501C0351B208F0700B691D3 /* Main Storyboard */,
+				3501C0131B208E5000B691D3 /* Supporting Files */,
 			);
 			path = hello.swift.Camera;
 			sourceTree = "<group>";
@@ -97,8 +97,8 @@
 		3501C0281B208E5100B691D3 /* hello.swift.CameraTests */ = {
 			isa = PBXGroup;
 			children = (
-				3501C0291B208E5100B691D3 /* Supporting Files */,
 				3501C02B1B208E5100B691D3 /* hello_swift_CameraTests.swift */,
+				3501C0291B208E5100B691D3 /* Supporting Files */,
 			);
 			path = hello.swift.CameraTests;
 			sourceTree = "<group>";
