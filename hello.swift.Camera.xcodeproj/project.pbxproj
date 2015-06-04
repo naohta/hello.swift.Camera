@@ -34,6 +34,7 @@
 		3501C0251B208E5100B691D3 /* hello.swift.CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello.swift.CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3501C02A1B208E5100B691D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3501C02B1B208E5100B691D3 /* hello_swift_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_swift_CameraTests.swift; sourceTree = "<group>"; };
+		3501C0361B208FF400B691D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		3501C0071B208E5000B691D3 = {
 			isa = PBXGroup;
 			children = (
+				3501C0361B208FF400B691D3 /* README.md */,
 				3501C0111B208E5000B691D3 /* Products */,
 				3501C0281B208E5100B691D3 /* hello.swift.CameraTests */,
 				3501C0121B208E5000B691D3 /* hello.swift.Camera */,
