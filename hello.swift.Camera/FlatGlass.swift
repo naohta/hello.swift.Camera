@@ -38,8 +38,10 @@ class FlatGlass: UIViewController,
 	// -------------------
 
     @IBAction func cameraButtonDidTouchUp(sender: UIButton) {
+
         var picker = UIImagePickerController()
         let camera = UIImagePickerControllerSourceType.Camera
+
         if UIImagePickerController.isSourceTypeAvailable(camera) {
             picker.sourceType = camera
             picker.delegate = self
