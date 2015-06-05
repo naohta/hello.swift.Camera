@@ -42,8 +42,8 @@ The Const
 Xcode Tips
 ----------
 
-- Ctrl+5 Show Group Files
-- Ctrl+6 Show Document Items
+- Ctrl+5 (perhaps Ctrl+9) Show Group Files
+- Ctrl+6 (perhaps Ctrl+0) Show Document Items
 
 ~~~swift
 	// MARK: -
