@@ -33,13 +33,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Hrg-ql-H13" secondAttribute="trailing" id="Eeo-NO-TFw"/>
-                            <constraint firstItem="5TQ-Il-GYe" firstAttribute="top" secondItem="iAP-ld-YRg" secondAttribute="bottom" constant="8" symbolic="YES" id="O4m-Li-nba"/>
-                            <constraint firstItem="Hrg-ql-H13" firstAttribute="top" secondItem="u88-Wq-R0j" secondAttribute="top" id="QUe-LR-GbT"/>
-                            <constraint firstItem="Hrg-ql-H13" firstAttribute="leading" secondItem="u88-Wq-R0j" secondAttribute="leading" id="TUa-j0-whq"/>
-                            <constraint firstItem="iAP-ld-YRg" firstAttribute="centerX" secondItem="Hrg-ql-H13" secondAttribute="centerX" id="fmM-k0-tYQ"/>
-                            <constraint firstItem="Hrg-ql-H13" firstAttribute="bottom" secondItem="5TQ-Il-GYe" secondAttribute="top" id="gey-hT-yOj"/>
+                            <constraint firstItem="5TQ-Il-GYe" firstAttribute="top" secondItem="iAP-ld-YRg" secondAttribute="bottom" constant="8" symbolic="YES" id="Hen-Aa-5wL"/>
+                            <constraint firstItem="Hrg-ql-H13" firstAttribute="leading" secondItem="u88-Wq-R0j" secondAttribute="leading" id="JKK-LB-VBy"/>
+                            <constraint firstItem="Hrg-ql-H13" firstAttribute="centerX" secondItem="iAP-ld-YRg" secondAttribute="centerX" id="OGT-pb-edg"/>
+                            <constraint firstAttribute="trailing" secondItem="Hrg-ql-H13" secondAttribute="trailing" id="gGr-Rl-0Kl"/>
+                            <constraint firstItem="Hrg-ql-H13" firstAttribute="bottom" secondItem="5TQ-Il-GYe" secondAttribute="top" id="oi8-d1-wJe"/>
+                            <constraint firstItem="Hrg-ql-H13" firstAttribute="top" secondItem="u88-Wq-R0j" secondAttribute="top" id="vRh-d9-ymM"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="T9L-HF-1md"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="myImageView" destination="Hrg-ql-H13" id="HmY-08-tb6"/>
