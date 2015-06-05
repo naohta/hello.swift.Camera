@@ -39,4 +39,15 @@ The Const
 - UIImagePickerControllerCameraDevice.Rear
 
 
+Xcode Tips
+----------
 
+- Ctrl+5 Show Group Files
+- Ctrl+6 Show Document Items
+
+~~~swift
+	// MARK: -
+	// MARK: - Something heading
+	// TODO: Something to do
+	// FIXME: Something to fix
+~~~

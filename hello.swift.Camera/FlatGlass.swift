@@ -8,10 +8,9 @@
 
 import UIKit
 
-class Glass: UIViewController {
+class FlatGlass: UIViewController {
 
-    let delegate = PickerDelegate()
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var myImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +20,18 @@ class Glass: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
+
+    // MARK: -
+
+    let myDelegate = Delegate_of_ImagePickerController()
+
     @IBAction func cameraButtonDidTouchUp(sender: UIButton) {
         var picker = UIImagePickerController()
         let camera = UIImagePickerControllerSourceType.Camera
         if UIImagePickerController.isSourceTypeAvailable(camera) {
             picker.sourceType = camera
-            delegate.imageView = imageView
-            picker.delegate = delegate
+            myDelegate.imageView = myImageView
+            picker.delegate = myDelegate
             presentViewController(picker, animated: true, completion: nil)
         }
 

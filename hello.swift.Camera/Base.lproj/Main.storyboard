@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Glass-->
+        <!--Flat Glass-->
         <scene sceneID="eHo-o9-RMg">
             <objects>
-                <viewController id="z7W-UB-oxK" customClass="Glass" customModule="hello_swift_Camera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z7W-UB-oxK" customClass="FlatGlass" customModule="hello_swift_Camera" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e7q-e0-uAc"/>
                         <viewControllerLayoutGuide type="bottom" id="5TQ-Il-GYe"/>
@@ -43,7 +43,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="Hrg-ql-H13" id="bhK-MM-8Qo"/>
+                        <outlet property="myImageView" destination="Hrg-ql-H13" id="HmY-08-tb6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPU-S4-w5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
