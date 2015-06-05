@@ -13,7 +13,6 @@
 		3501C0201B208E5000B691D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3501C01E1B208E5000B691D3 /* LaunchScreen.xib */; };
 		3501C02C1B208E5100B691D3 /* hello_swift_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501C02B1B208E5100B691D3 /* hello_swift_CameraTests.swift */; };
 		3501C0691B20B21F00B691D3 /* FlatGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501C0681B20B21F00B691D3 /* FlatGlass.swift */; };
-		3501C06D1B20BDF700B691D3 /* Delegate_of_ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501C06C1B20BDF700B691D3 /* Delegate_of_ImagePickerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 		3501C02B1B208E5100B691D3 /* hello_swift_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_swift_CameraTests.swift; sourceTree = "<group>"; };
 		3501C0361B208FF400B691D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3501C0681B20B21F00B691D3 /* FlatGlass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatGlass.swift; sourceTree = "<group>"; };
-		3501C06C1B20BDF700B691D3 /* Delegate_of_ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegate_of_ImagePickerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,6 @@
 			children = (
 				3501C0191B208E5000B691D3 /* Main.storyboard */,
 				3501C0681B20B21F00B691D3 /* FlatGlass.swift */,
-				3501C06C1B20BDF700B691D3 /* Delegate_of_ImagePickerController.swift */,
 			);
 			name = "Main Storyboard";
 			sourceTree = "<group>";
@@ -225,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3501C06D1B20BDF700B691D3 /* Delegate_of_ImagePickerController.swift in Sources */,
 				3501C0691B20B21F00B691D3 /* FlatGlass.swift in Sources */,
 				3501C0161B208E5000B691D3 /* AppDelegate.swift in Sources */,
 			);
