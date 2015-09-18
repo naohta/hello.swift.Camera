@@ -166,6 +166,8 @@
 		3501C0081B208E5000B691D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Naohiro OHTA";
 				TargetAttributes = {

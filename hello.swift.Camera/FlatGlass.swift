@@ -24,7 +24,7 @@ class FlatGlass: UIViewController,
     //         when user finished picking a media
 	// ------------------------------------------
 
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
 
         if let i = info[UIImagePickerControllerOriginalImage] as? UIImage {
 			myImageView.image = i
@@ -39,7 +39,7 @@ class FlatGlass: UIViewController,
 
     @IBAction func cameraButtonDidTouchUp(sender: UIButton) {
 
-        var picker = UIImagePickerController()
+        let picker = UIImagePickerController()
         let camera = UIImagePickerControllerSourceType.Camera
 
         if UIImagePickerController.isSourceTypeAvailable(camera) {
