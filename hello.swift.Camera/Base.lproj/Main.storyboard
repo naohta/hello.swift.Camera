@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E17e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="z7W-UB-oxK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="z7W-UB-oxK">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--Flat Glass-->
@@ -20,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAP-ld-YRg">
-                                <rect key="frame" x="227" y="525" width="147" height="67"/>
+                                <rect key="frame" x="225" y="525" width="150" height="67"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="46"/>
                                 <state key="normal" title="Camera">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,11 +41,6 @@
                             <constraint firstItem="Hrg-ql-H13" firstAttribute="bottom" secondItem="5TQ-Il-GYe" secondAttribute="top" id="oi8-d1-wJe"/>
                             <constraint firstItem="Hrg-ql-H13" firstAttribute="top" secondItem="u88-Wq-R0j" secondAttribute="top" id="vRh-d9-ymM"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="T9L-HF-1md"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="myImageView" destination="Hrg-ql-H13" id="HmY-08-tb6"/>
